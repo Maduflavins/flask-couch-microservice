@@ -2,7 +2,17 @@
 This repository will hold an API which will be used in my final year project. The API is meant to act as a gateway to a microservice which is contacted via HTTP e.g couch db. 
 
 #Running 
-This service is built on on Python 3.6.
+This service is built  on Python 3.6.
+### Install  and start CouchDB
+navigate to https://couchdb.apache.org/ and follow your os specification
+
+### Environment Variables
+create a .env file
+```
+touch .env
+```
+Add your SERVER_URL to the .env file
+
 
 ### Virtual Env
 This project uses a virtual env to manage dependancies. In order to use it, navagate to the root of the project and run : 

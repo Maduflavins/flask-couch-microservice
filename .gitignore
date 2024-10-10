@@ -1,4 +1,4 @@
-
+.env
 my_venv_dir/
 .cache
 .DS_Store
